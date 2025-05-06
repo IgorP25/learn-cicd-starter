@@ -27,6 +27,8 @@ jobs:
 
       - name: Set up Goose
         uses: mscno/setup-goose@v1
+
+      - name: Check Goose
         run: goose version
         
       - name: Build app
