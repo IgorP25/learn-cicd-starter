@@ -27,6 +27,7 @@ jobs:
 
       - name: Set up Goose
         uses: mscno/setup-goose@v1
+        run: goose version
         
       - name: Build app
         run: scripts/buildprod.sh
