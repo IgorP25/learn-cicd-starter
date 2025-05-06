@@ -31,7 +31,7 @@ jobs:
           version: tip
 
       - name: Check Goose
-        run: goose version
+        run: goose -version
         
       - name: Build app
         run: scripts/buildprod.sh
